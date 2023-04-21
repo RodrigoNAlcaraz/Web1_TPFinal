@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabajo Final Web 1</title>
-   <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style.css"> 
     
 </head>
 
@@ -16,7 +16,7 @@
     </header>
     <nav>
         <h2>(Aca va el nav)</h2>
-        <ul type="none">
+        <ul class="ulnav"type="none">
             <li> <a href="./Jabones.html" target="_self"> 
                 Jabones liquidos</a></li>        
             <li> <a href="./Suavizantes.html" target="_self">
@@ -52,8 +52,9 @@
 
 
     <footer>
-            <h2>Contacto</h2>
+        <div class="formularioCont">
             <form>
+                <h2 class="titleForm">Contacto</h2>
                 <label for="nombre">Nombre completo:</label>
                 <input type="text" 
                     id="nombre" 
@@ -83,9 +84,11 @@
                      name="pregunta" >
                     </textarea>
 
-                <input type="submit" 
+                <input type="submit"
+                        class="submit"
                     value="Enviar">
             </form>
+        </div>
 
 
 

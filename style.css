@@ -1,0 +1,101 @@
+*{
+    background-color: beige;
+}
+
+
+.formularioCont{
+    border: 1px solid;
+    padding: 20px;
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    
+}
+
+.titleForm{
+    text-align: center;
+    color: blueviolet;
+    
+    background-color: rgb(148, 148, 148);
+    opacity: 0.5;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+  }
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="tel"], 
+textarea {
+   display:block;
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    border: 1px solid #898a46;
+}
+
+.submit {
+    background-color: #2608a1;
+    font-family: Arial;
+    font-size: 14px;
+    color: white;
+    border: none;
+    padding:  10px;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-left: 70%;
+    display: block;
+}
+
+
+
+
+  
+
+nav {
+    background-color: #9e1414;
+    padding: 10px;
+    border: 2px solid #64146e;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #b48b18;
+  }
+  
+  nav ul {
+    background-color: #02b150;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  a {
+    background-color: #64146e;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 2px solid #02b150;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  a:hover {
+    color: #031930;
+    background-color: #fa0d70;
+  }
+  
+ 
+  
