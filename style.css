@@ -1,4 +1,4 @@
-*{
+body{
     background-color: beige;
 }
 
@@ -61,6 +61,7 @@ textarea {
   
 
 nav {
+  text-align: center;
     background-color: #9e1414;
     padding: 10px;
     border: 2px solid #64146e;
@@ -69,7 +70,6 @@ nav {
   }
   
   nav ul {
-    background-color: #02b150;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -97,5 +97,14 @@ nav {
     background-color: #fa0d70;
   }
   
+.imgLimpieza{ 
+  background-color: black;
+}
+
+  footer{
+    background-color: aquamarine;
+    font-family: 'Times New Roman';
+    font-size: 11px;
+  }
  
   
