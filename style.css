@@ -121,6 +121,15 @@ img {
   order: 1;
  }
 
+ .visitanos h3{
+  text-align: center;
+  font-size: 30px;
+ }
+ .visitanos p{
+  text-align: left;
+  font-size: 20px;
+ }
+
 
 .quienesSomos {
   order: 2;
@@ -156,7 +165,9 @@ margin: auto;
 /* Estilos para el título del formulario */
 .titleForm {
   text-align: center;
-  font-size: 20px;
+  border-radius: 25px;
+  margin: 10px;
+  font-size: 28px;
   color: rgb(0, 0, 0);
   background-color: rgb(14, 119, 49);
 }
@@ -165,7 +176,9 @@ margin: auto;
 /* Estilos para las etiquetas de los campos del formulario */
 label {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
+  font-size: 17px;
+  font-family:fantasy;
 }
 
 /* Estilos para los campos de texto y de correo del formulario */
@@ -185,7 +198,7 @@ textarea {
 .submit {
   background-color: #2608a1;
   font-family: Arial;
-  font-size: 14px;
+  font-size: 20px;
   color: white;
   border: none;
   padding: 10px;
