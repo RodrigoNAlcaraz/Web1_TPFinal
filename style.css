@@ -150,33 +150,30 @@ img {
   
 }
 
-/*acomodando el footer*/
+
 .ParaConsul{
   text-align: center;
 }
-footer {
+
+.FlexContainer{
   display: flex;
-justify-content: center;
-flex-wrap: wrap;
-
+  background-color: #64146e;
 }
 
-.formularioCont {
-  flex-direction: column;
-padding: 20px;
-}
-
-.visitanos{ 
-  flex-direction: column;
+.FlexContainer > div{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding: 50px;
+  justify-content: center;
   padding: 20px;
-  border: solid 1px;
-}
+  
 
+}
 .quienesSomos {
- flex-direction: column;
- align-items: center;
- padding: 20px;
  border: solid 1px;
+ width: 500px;
+ font-size: 20px;
 
-}
+ }
 
