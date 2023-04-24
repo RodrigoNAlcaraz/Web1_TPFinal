@@ -30,10 +30,6 @@ h1 {
 }
 
 /* Estilos para el formulario */
-form {
-  display: flex;
-  flex-direction: column;
-}
 
 /* Estilos para las etiquetas de los campos del formulario */
 label {
@@ -154,21 +150,33 @@ img {
   
 }
 
+/*acomodando el footer*/
+.ParaConsul{
+  text-align: center;
+}
 footer {
   display: flex;
-  justify-content: space-between;
+justify-content: center;
+flex-wrap: wrap;
 
 }
 
 .formularioCont {
-  flex: 0;
+  flex-direction: column;
+padding: 20px;
+}
 
+.visitanos{ 
+  flex-direction: column;
+  padding: 20px;
+  border: solid 1px;
 }
 
 .quienesSomos {
-  flex: 1 1 25%;
-  justify-content: flex-end;
-  text-align: left;
+ flex-direction: column;
+ align-items: center;
+ padding: 20px;
+ border: solid 1px;
 
 }
 
