@@ -6,10 +6,15 @@ body {
 
 /* Estilos para los títulos principales */
 h1 {
+  background-color: #64146e;
+
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
-  padding: 10px;
+  padding: 5px;
+  margin: auto;
+  border-radius: 20px;
+
 }
 
 /* Estilos para la barra de navegación */
@@ -22,6 +27,13 @@ nav {
   box-shadow: 0px 0px 10px #b48b18;
 }
 
+.logo img{
+  height: 75px;
+  width: 75px;
+  display: flex;
+  margin: auto;
+  
+}
 /* Estilos para la lista de enlaces de la barra de navegación */
 nav ul {
   list-style-type: none;
