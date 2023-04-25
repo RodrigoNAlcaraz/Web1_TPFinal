@@ -3,6 +3,7 @@ body {
   background-color: beige;
 }
 
+
 /* Estilos para los títulos principales */
 h1 {
   text-align: center;
@@ -66,10 +67,16 @@ a:hover {
 
 
  .container {
-  background-color: #a0d8b9;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
+    background-image: url('./asset/imagenes/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
 }
 
 .list {
@@ -121,6 +128,9 @@ img {
 
 .visitanos{
   order: 1;
+  margin: 50px;
+  font-family: Arial, sans-serif;
+  text-align: center;
  }
 
  .visitanos h3{
@@ -129,9 +139,32 @@ img {
   font-size: 35px;
  }
  .visitanos p{
-  text-align: left;
   font-size: 20px;
+  color: white;
+
  }
+
+.direccion {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.direccion img {
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 10px;
+  height: 50px;
+  width: 55px;
+}
+
+
+
+
+
+
+
+ 
 
 
 .quienesSomos {
