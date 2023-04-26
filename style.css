@@ -96,8 +96,6 @@ a:hover {
   }
 
 
-
-
 .list {
   display: flex;
   flex-direction: column;
@@ -178,14 +176,6 @@ img {
 }
 
 
-
-
-
-
-
- 
-
-
 .quienesSomos {
  background-color:#80398a;
  order: 2;
@@ -263,5 +253,36 @@ textarea {
   margin-left: auto; 
   margin-right: auto; 
   display: block;
+}
+
+
+.container2{
+  display: flex;
+  justify-content: center;
+  border:#2608a1 1px solid;
+  
+}
+
+.J1, .J2, .J3{
+margin: auto;
+padding: 20px;
+
+}
+
+.container2 ul li{
+margin-top: 50px;
+list-style-type: none;
+display: block;
+
+}
+
+.tituloLis{
+background-color: #ffffff;
+padding: 20px;
+color: #fa0d70;
+
+border-radius: 25px;
+font-size: 23px;
+text-align: center;
 }
 
