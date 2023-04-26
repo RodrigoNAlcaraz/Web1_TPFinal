@@ -7,12 +7,12 @@ body {
 /* Estilos para los títulos principales */
 h1 {
   background-color: #64146e;
-
+  color: #ffffff;
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  font-size: 30px;
+  font-size: 40px;
   padding: 5px;
-  margin: auto;
+  margin-top: 20px;
   border-radius: 20px;
 
 }
@@ -20,11 +20,9 @@ h1 {
 /* Estilos para la barra de navegación */
 nav {
   text-align: center;
-  background-color: #9e1414;
   padding: 10px;
-  border: 2px solid #64146e;
   border-radius: 5px;
-  box-shadow: 0px 0px 10px #b48b18;
+  box-shadow: 0px 0px 10px #9518b4;
 }
 
 .LogoyUl{
