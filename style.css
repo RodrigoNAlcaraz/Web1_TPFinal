@@ -123,6 +123,9 @@ img {
 
 .ParaConsul{
   text-align: center;
+  margin: auto;
+  padding: 10px;
+  color: #ffffff;
   font-size: 45px;
   background-color: rgb(145, 49, 121);
 }
@@ -195,6 +198,9 @@ margin: auto;
  .parrafo{
   font-size: 22px;
   margin: 15px;
+  color: floralwhite;
+  font-style: italic;
+  text-align: justify;
  }
 
 
