@@ -2,51 +2,399 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jabones</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jabones</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Jabones</h1>
+  <h1>Jabones</h1>
 
-    <div class="container2">
-        <div class="J1">
-          <h3 class="tituloLis">Jabon Liquido lavarropa</h3>
-          <ul>
-            <li><img src="./asset/imagenes/jabones liquidos lavarropa/jabon ariel comun.jpg" alt=""> Jabon Liquido ariel </li>
-            <hr>
-            <li><img src="./asset/imagenes/jabones liquidos lavarropa/jabon skip.jpg" alt=""> Jabon Liquido Skip</li>
-            <hr>
-            <li><img src="./asset/imagenes/jabones liquidos lavarropa/jabón-líquido-ala-repuesto-paquete.jpg" alt=""> Jabon Liquido Ala</li>
-            <li><img src="./asset/imagenes/jabones liquidos lavarropa/querubin.jpg" alt=""> Jabon Liquido Querubin</li>
-          </ul>
-        </div>
-        
-        <div class="J2">
-          <h3 class="tituloLis">Jabon en Polvo</h3>
-          <ul>
-            <li><img src="./asset/imagenes/jabones en polvo/jabon en polvo ariel.jpg" alt=""> Jabon en Polvo ariel </li>
-            <li><img src="./asset/imagenes/jabones en polvo/jabon en polvo skip.jpg" alt=""> Jabon en Polvo Skip</li>
-            <li><img src="./asset/imagenes/jabones en polvo/ala.jpg" alt=""> Jabon en Polvo Ala</li>
-            <li><img src="./asset/imagenes/jabones en polvo/jabon en polvo querubin.jpg" alt=""> Jabon en polvo Querubin</li>
-          </ul>
-        </div>
-        
-        <div class="J3">
-          <h3 class="tituloLis">Jabon para manos</h3>
-          <ul>
-            <li><img src="./asset/imagenes/jabon de manos/jabon manos lux.jpg" alt=""> Jabon de manos Lux </li>
-            <li><img src="./asset/imagenes/jabon de manos/jabon manos lysoform.png" alt=""> Jabon de manos Lysoform</li>
-            <li><img src="./asset/imagenes/jabon de manos/jabon manos nivea.jpg" alt=""> Jabon de Manos Nivea</li>
-            <li><img src="./asset/imagenes/jabon de manos/jabon manos protex.png" alt=""> Jabon de Manos Protex</li>
-          </ul>
-        </div>
-      </div>
-      
+  <div class="container2">
+    <div class="J1">
+      <h3 class="tituloLis">Jabon Liquido lavarropa</h3>
+      <ul>
+        <li><img src="./asset/imagenes/jabones liquidos lavarropa/jabon ariel comun.jpg" alt="">
+          <p>Jabon Liquido ariel </p>
+          <div class="selectorCantidad">
+            <form>
+              <div class="parte1">
+                <div class="primer-termino">
+                  <label for="cars">cantidad por lts</label>
+                </div>
+                <div class="segundo-termino">
+                  <select name="cant" id="cant">
+                    <option value="vacio" selected>-</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="5">5</option>
+                  </select>
+                </div>
+              </div>
+              <div class="parte2">
+                <div class="tercer-termino">
+                  <input type="submit" value="Agregar" class="btnAgregar">
+                </div>
+                <div class="cuarto-termino">
+                  <img src="./asset/imagenes/imagen carrito.png" alt="">
+                </div>
+              </div>
+            </form>
+          </div>
+        </li>
+
+
+        <hr>
+        <li><img src="./asset/imagenes/jabones liquidos lavarropa/jabon skip.jpg" alt=""> Jabon Liquido Skip
+          <div class="selectorCantidad">
+            <form>
+              <div class="parte1">
+                <div class="primer-termino">
+                  <label for="cars">cantidad por lts</label>
+                </div>
+                <div class="segundo-termino">
+                  <select name="cant" id="cant">
+                    <option value="vacio" selected>-</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="5">5</option>
+                  </select>
+                </div>
+              </div>
+              <div class="parte2">
+                <div class="tercer-termino">
+                  <input type="submit" value="Agregar" class="btnAgregar">
+                </div>
+                <div class="cuarto-termino">
+                  <img src="./asset/imagenes/imagen carrito.png" alt="">
+                </div>
+              </div>
+            </form>
+          </div>
+        </li>
+
+
+        <hr>
+        <li><img src="./asset/imagenes/jabones liquidos lavarropa/jabón-líquido-ala-repuesto-paquete.jpg" alt=""> Jabon
+          Liquido Ala
+          <div class="selectorCantidad">
+            <form>
+              <div class="parte1">
+                <div class="primer-termino">
+                  <label for="cars">cantidad por lts</label>
+                </div>
+                <div class="segundo-termino">
+                  <select name="cant" id="cant">
+                    <option value="vacio" selected>-</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="5">5</option>
+                  </select>
+                </div>
+              </div>
+              <div class="parte2">
+                <div class="tercer-termino">
+                  <input type="submit" value="Agregar" class="btnAgregar">
+                </div>
+                <div class="cuarto-termino">
+                  <img src="./asset/imagenes/imagen carrito.png" alt="">
+                </div>
+              </div>
+            </form>
+          </div>
+        </li>
+
+        <hr>
+        <li><img src="./asset/imagenes/jabones liquidos lavarropa/querubin.jpg" alt=""> Jabon Liquido Querubin
+          <div class="selectorCantidad">
+            <form>
+              <div class="parte1">
+                <div class="primer-termino">
+                  <label for="cars">cantidad por lts</label>
+                </div>
+                <div class="segundo-termino">
+                  <select name="cant" id="cant">
+                    <option value="vacio" selected>-</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="5">5</option>
+                  </select>
+                </div>
+              </div>
+              <div class="parte2">
+                <div class="tercer-termino">
+                  <input type="submit" value="Agregar" class="btnAgregar">
+                </div>
+                <div class="cuarto-termino">
+                  <img src="./asset/imagenes/imagen carrito.png" alt="">
+                </div>
+              </div>
+            </form>
+          </div>
+        </li>
+        <hr>
+      </ul>
+    </div>
+
+    <div class="J2">
+      <h3 class="tituloLis">Jabon en Polvo</h3>
+      <ul>
+        <li><img src="./asset/imagenes/jabones en polvo/jabon en polvo ariel.jpg" alt=""> Jabon en Polvo ariel <div
+            class="selectorCantidad">
+            <form>
+              <div class="parte1">
+                <div class="primer-termino">
+                  <label for="cars">cantidad por lts</label>
+                </div>
+                <div class="segundo-termino">
+                  <select name="cant" id="cant">
+                    <option value="vacio" selected>-</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="5">5</option>
+                  </select>
+                </div>
+              </div>
+              <div class="parte2">
+                <div class="tercer-termino">
+                  <input type="submit" value="Agregar" class="btnAgregar">
+                </div>
+                <div class="cuarto-termino">
+                  <img src="./asset/imagenes/imagen carrito.png" alt="">
+                </div>
+              </div>
+            </form>
+          </div>
+        </li>
+
+        <hr>
+        <li><img src="./asset/imagenes/jabones en polvo/jabon en polvo skip.jpg" alt=""> Jabon en Polvo Skip<div
+            class="selectorCantidad">
+            <form>
+              <div class="parte1">
+                <div class="primer-termino">
+                  <label for="cars">cantidad por lts</label>
+                </div>
+                <div class="segundo-termino">
+                  <select name="cant" id="cant">
+                    <option value="vacio" selected>-</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="5">5</option>
+                  </select>
+                </div>
+              </div>
+              <div class="parte2">
+                <div class="tercer-termino">
+                  <input type="submit" value="Agregar" class="btnAgregar">
+                </div>
+                <div class="cuarto-termino">
+                  <img src="./asset/imagenes/imagen carrito.png" alt="">
+                </div>
+              </div>
+            </form>
+          </div>
+        </li>
+
+        <hr>
+        <li><img src="./asset/imagenes/jabones en polvo/ala.jpg" alt=""> Jabon en Polvo Ala
+          <div class="selectorCantidad">
+            <form>
+              <div class="parte1">
+                <div class="primer-termino">
+                  <label for="cars">cantidad por lts</label>
+                </div>
+                <div class="segundo-termino">
+                  <select name="cant" id="cant">
+                    <option value="vacio" selected>-</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="5">5</option>
+                  </select>
+                </div>
+              </div>
+              <div class="parte2">
+                <div class="tercer-termino">
+                  <input type="submit" value="Agregar" class="btnAgregar">
+                </div>
+                <div class="cuarto-termino">
+                  <img src="./asset/imagenes/imagen carrito.png" alt="">
+                </div>
+              </div>
+            </form>
+          </div>
+        </li>
+
+
+        <hr>
+        <li><img src="./asset/imagenes/jabones en polvo/jabon en polvo querubin.jpg" alt=""> Jabon en polvo Querubin
+          <div class="selectorCantidad">
+            <form>
+              <div class="parte1">
+                <div class="primer-termino">
+                  <label for="cars">cantidad por lts</label>
+                </div>
+                <div class="segundo-termino">
+                  <select name="cant" id="cant">
+                    <option value="vacio" selected>-</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="5">5</option>
+                  </select>
+                </div>
+              </div>
+              <div class="parte2">
+                <div class="tercer-termino">
+                  <input type="submit" value="Agregar" class="btnAgregar">
+                </div>
+                <div class="cuarto-termino">
+                  <img src="./asset/imagenes/imagen carrito.png" alt="">
+                </div>
+              </div>
+            </form>
+          </div>
+        </li>
+        <hr>
+      </ul>
+    </div>
+
+    <div class="J3">
+      <h3 class="tituloLis">Jabon para manos</h3>
+      <ul>
+        <li><img src="./asset/imagenes/jabon de manos/jabon manos lux.jpg" alt=""> Jabon de manos Lux <div
+            class="selectorCantidad">
+            <form>
+              <div class="parte1">
+                <div class="primer-termino">
+                  <label for="cars">cantidad por lts</label>
+                </div>
+                <div class="segundo-termino">
+                  <select name="cant" id="cant">
+                    <option value="vacio" selected>-</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="5">5</option>
+                  </select>
+                </div>
+              </div>
+              <div class="parte2">
+                <div class="tercer-termino">
+                  <input type="submit" value="Agregar" class="btnAgregar">
+                </div>
+                <div class="cuarto-termino">
+                  <img src="./asset/imagenes/imagen carrito.png" alt="">
+                </div>
+              </div>
+            </form>
+          </div>
+        </li>
+
+        <hr>
+        <li><img src="./asset/imagenes/jabon de manos/jabon manos lysoform.png" alt=""> Jabon de manos Lysoform<div
+            class="selectorCantidad">
+            <form>
+              <div class="parte1">
+                <div class="primer-termino">
+                  <label for="cars">cantidad por lts</label>
+                </div>
+                <div class="segundo-termino">
+                  <select name="cant" id="cant">
+                    <option value="vacio" selected>-</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="5">5</option>
+                  </select>
+                </div>
+              </div>
+              <div class="parte2">
+                <div class="tercer-termino">
+                  <input type="submit" value="Agregar" class="btnAgregar">
+                </div>
+                <div class="cuarto-termino">
+                  <img src="./asset/imagenes/imagen carrito.png" alt="">
+                </div>
+              </div>
+            </form>
+          </div>
+        </li>
+
+        <hr>
+        <li><img src="./asset/imagenes/jabon de manos/jabon manos nivea.jpg" alt=""> Jabon de Manos Nivea<div
+            class="selectorCantidad">
+            <form>
+              <div class="parte1">
+                <div class="primer-termino">
+                  <label for="cars">cantidad por lts</label>
+                </div>
+                <div class="segundo-termino">
+                  <select name="cant" id="cant">
+                    <option value="vacio" selected>-</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="5">5</option>
+                  </select>
+                </div>
+              </div>
+              <div class="parte2">
+                <div class="tercer-termino">
+                  <input type="submit" value="Agregar" class="btnAgregar">
+                </div>
+                <div class="cuarto-termino">
+                  <img src="./asset/imagenes/imagen carrito.png" alt="">
+                </div>
+              </div>
+            </form>
+          </div>
+        </li>
+
+        <hr>
+        <li><img src="./asset/imagenes/jabon de manos/jabon manos protex.png" alt=""> Jabon de Manos Protex<div
+            class="selectorCantidad">
+            <form>
+              <div class="parte1">
+                <div class="primer-termino">
+                  <label for="cars">cantidad por lts</label>
+                </div>
+                <div class="segundo-termino">
+                  <select name="cant" id="cant">
+                    <option value="vacio" selected>-</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="5">5</option>
+                  </select>
+                </div>
+              </div>
+              <div class="parte2">
+                <div class="tercer-termino">
+                  <input type="submit" value="Agregar" class="btnAgregar">
+                </div>
+                <div class="cuarto-termino">
+                  <img src="./asset/imagenes/imagen carrito.png" alt="">
+                </div>
+              </div>
+            </form>
+          </div>
+        </li>
+        <hr>
+      </ul>
+    </div>
+  </div>
+
 
 </body>
 
