@@ -314,11 +314,16 @@ textarea {
   font-weight: bold;
   color: #333;
   margin-top: 5px;
-  /* agregar un espacio adicional encima del texto */
   text-transform: uppercase;
-  /* convertir el texto a mayúsculas */
   letter-spacing: 1px;
-  /* agregar un espacio adicional entre caracteres */
+}
+.precioProd{
+  color: green;
+  background-color: rgba(199, 199, 199, 0.466);
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 5px;
+  letter-spacing: 5px;
 }
 
 
