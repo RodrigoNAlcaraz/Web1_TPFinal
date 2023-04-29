@@ -25,7 +25,7 @@ nav {
   box-shadow: 0px 0px 10px #9518b4;
 }
 
-.LogoyUl{
+.LogoyUl {
   display: flex;
   margin-top: 10px;
   margin-left: 15px;
@@ -33,12 +33,13 @@ nav {
 }
 
 
-.logo img{
+.logo img {
   height: 75px;
   width: 75px;
   margin: auto;
-  
+
 }
+
 /* Estilos para la lista de enlaces de la barra de navegación */
 nav ul {
 
@@ -48,7 +49,7 @@ nav ul {
   padding: 10px;
   display: flex;
   align-items: end;
- 
+
 }
 
 /* Estilos para los elementos de la lista de la barra de navegación */
@@ -74,26 +75,26 @@ a:hover {
 }
 
 /* Estilos para la imagen del banner de ofertas */
-.ofertasImperdibles img{
+.ofertasImperdibles img {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   width: 1000px;
   height: 300;
   margin-left: auto;
   margin-right: auto;
- }
+}
 
 
- .container {
+.container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 
-    background-image: url('./asset/imagenes/fondo.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  background-image: url('./asset/imagenes/fondo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 .list {
@@ -117,11 +118,11 @@ img {
   width: 300px;
   margin-bottom: 30px;
   border-radius: 40px;
-  
+
 }
 
 
-.ParaConsul{
+.ParaConsul {
   text-align: center;
   margin: auto;
   padding: 10px;
@@ -130,13 +131,13 @@ img {
   background-color: rgb(145, 49, 121);
 }
 
-.FlexContainer{
+.FlexContainer {
   display: flex;
   align-items: stretch;
   background-color: #64146e;
 }
 
-.FlexContainer > div{
+.FlexContainer>div {
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
@@ -146,23 +147,24 @@ img {
 
 }
 
-.visitanos{
+.visitanos {
   order: 1;
   margin: 50px;
   font-family: Arial, sans-serif;
   text-align: center;
- }
+}
 
- .visitanos h3{
+.visitanos h3 {
   color: #ffffff;
   text-align: center;
   font-size: 35px;
- }
- .visitanos p{
+}
+
+.visitanos p {
   font-size: 20px;
   color: white;
 
- }
+}
 
 .direccion {
   display: flex;
@@ -180,31 +182,32 @@ img {
 
 
 .quienesSomos {
- background-color:#80398a;
- order: 2;
- border-radius: 30px;
- width: 500px;
- font-size: 20px;
- flex-grow: 2;
+  background-color: #80398a;
+  order: 2;
+  border-radius: 30px;
+  width: 500px;
+  font-size: 20px;
+  flex-grow: 2;
 
- }
- .quienesSomos h3{
-text-align: center;
-font-size: 35px;
-margin: auto;
+}
 
- }
+.quienesSomos h3 {
+  text-align: center;
+  font-size: 35px;
+  margin: auto;
 
- .parrafo{
+}
+
+.parrafo {
   font-size: 22px;
   margin: 15px;
   color: floralwhite;
   font-style: italic;
   text-align: justify;
- }
+}
 
 
- /* Estilos para el contenedor del formulario */
+/* Estilos para el contenedor del formulario */
 .formularioCont {
   order: 3;
   border-radius: 30px;
@@ -230,7 +233,7 @@ label {
   display: block;
   margin-bottom: 7px;
   font-size: 17px;
-  font-family:fantasy;
+  font-family: fantasy;
 }
 
 /* Estilos para los campos de texto y de correo del formulario */
@@ -256,26 +259,28 @@ textarea {
   padding: 10px;
   border-radius: 100px;
   cursor: pointer;
-  margin-left: auto; 
-  margin-right: auto; 
+  margin-left: auto;
+  margin-right: auto;
   display: block;
 }
 
 
-.container2{
+.container2 {
   display: flex;
   justify-content: center;
-  border:#2608a1 1px solid;
-  
-}
-
-.J1, .J2, .J3{
-margin: auto;
-padding: 20px;
+  border: #2608a1 1px solid;
 
 }
 
-.container2 ul li{
+.J1,
+.J2,
+.J3 {
+  margin: auto;
+  padding: 20px;
+
+}
+
+.container2 ul li {
   margin-top: 50px;
   list-style-type: none;
   display: flex;
@@ -284,39 +289,38 @@ padding: 20px;
 }
 
 
-.tituloLis{
-background-color: #ffffff;
-padding: 20px;
-color: #fa0d70;
-
-border-radius: 25px;
-font-size: 23px;
-text-align: center;
-}
+.tituloLis {
+  background-color: #ffffff;
+  padding: 22px;
+  font-weight: bold;
+  color: #fa0d70;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 
 
-/*
-.primer-termino,
-.segundo-termino {
-  display: inline-block;
+  border-radius: 25px;
+  font-size: 23px;
+  text-align: center;
 }
 
-.tercer-termino,
-.cuarto-termino {
-  display: inline-block;
-}
-.cuarto-termino  img{
-  width: 45px;
-  height: 45px;
-  margin-bottom: 0px;
-  border-radius: 0px;
-}
-*/
 
 .selectorCantidad {
   display: flex;
   flex-direction: column;
 }
+
+.nombreProd {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 5px;
+  /* agregar un espacio adicional encima del texto */
+  text-transform: uppercase;
+  /* convertir el texto a mayúsculas */
+  letter-spacing: 1px;
+  /* agregar un espacio adicional entre caracteres */
+}
+
 
 .parte1 {
   display: flex;
@@ -325,7 +329,7 @@ text-align: center;
 .primer-termino,
 .segundo-termino {
   display: inline-block;
-  margin-right: 10px; 
+  margin-right: 10px;
 }
 
 .parte2 {
@@ -335,8 +339,9 @@ text-align: center;
 .tercer-termino,
 .cuarto-termino {
   display: inline-block;
- 
+
 }
+
 .tercer-termino .btnAgregar {
   margin: 5px;
   margin-right: 20px;
@@ -347,7 +352,7 @@ text-align: center;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ;
+  transition: background-color 0.3s;
 }
 
 .tercer-termino .btnAgregar:hover {
@@ -356,28 +361,30 @@ text-align: center;
 
 /* Estilos para el select */
 #cant {
-  font-size: 15px; 
+  font-size: 15px;
   padding: 2px;
-  border: 2px solid #ccc; 
-  border-radius: 10px; 
-  cursor: pointer; 
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 /* Estilos para las opciones */
 #cant option {
   font-size: 15px;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
-
-
-
-
-
-
-.cuarto-termino  img{
+.cuarto-termino img {
   width: 45px;
   height: 45px;
   margin-bottom: 0px;
   border-radius: 0px;
+}
+
+
+footer.paginasCons {
+  background-color: rgba(139, 139, 139, 0.705);
+  padding: 100px;
+  text-align: center;
+  margin-top: 10px;
 }
