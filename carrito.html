@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito de Compras</title>
+  <link rel="stylesheet" href="carrito.css">
+</head>
+<body>
+  <body>
+    <h1>Carrito de Compras</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Producto</th>
+          <th>Cantidad</th>
+          <th>Precio</th>
+          <th>Subtotal</th>
+        </tr>
+      </thead>
+      <tbody id="productos">
+        <tr>
+          <td><input type="text" name="producto[]" placeholder="Producto"></td>
+          <td><input type="number" name="cantidad[]" value="1"></td>
+          <td><input type="number" name="precio[]" value="0.00" step="0.01"></td>
+          <td><input type="number" name="subtotal[]" value="0.00" step="0.01" readonly></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">Total</td>
+          <td><input type="number" id="total" value="0.00" step="0.01" readonly></td>
+        </tr>
+
+        
+      </tfoot>
+    </table>
+    <div class="containerButton">
+      <div class="buttonAgregar">
+    <button id="agregar">Agregar mas productos</button>
+  </div>
+  <div class="buttonPagar">
+    <button id="pagar">Pagar</button>
+  </div>
+    </div>
+    <script src="carrito.js"></script>
+  </body>
+</body>
+</html>
+

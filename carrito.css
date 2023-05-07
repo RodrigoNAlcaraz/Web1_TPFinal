@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  thead th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tbody td {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 98%;
+    padding: 15px;
+    border: none;
+    background-color: #f2f2f2;
+  }
+  
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  tfoot td {
+    text-align: right;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+  }
+  
+  tfoot button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  tfoot button:hover {
+    background-color: #3e8e41;
+  }
+  
+  #pagar, #agregar {
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #pagar:hover, #agregar:hover {
+    background-color: #3e8e41;
+  }
+  
+  .containerButton{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .buttonPagar, .buttonAgregar{
+    margin-right: 20px;
+  }
