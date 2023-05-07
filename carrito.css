@@ -81,3 +81,9 @@ body {
   .buttonPagar, .buttonAgregar{
     margin-right: 20px;
   }
+
+  a:visited {
+    color: white; 
+    text-decoration: none; 
+  }
+  

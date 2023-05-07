@@ -41,7 +41,7 @@ nav {
   padding: 0px;
 }
 
-.aLogo:hover {
+.aLogo:hover{
   color: #031930;
   background: #4e4e4e;
 }
@@ -439,6 +439,25 @@ footer.paginasCons {
 .pp2 {
   flex: 1;
   text-align: right;
+}
+
+.carroArriba img{
+
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  margin-right: 20px;
+  margin-left: 15px;
+}
+
+.aCarro{
+  background: #333;
+  padding: 0px;
+}
+
+.aCarro:hover {
+  color: #031930;
+  background: #333;
 }
 
 .conjuntoFooter2{
