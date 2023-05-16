@@ -235,7 +235,7 @@ img {
 
 /* Estilos para el contenedor del formulario */
 .formularioCont {
-  order: 3;
+  border: 3;
   border-radius: 30px;
   padding: 20px;
   width: 400px;
