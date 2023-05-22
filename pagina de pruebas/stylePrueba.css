@@ -1,0 +1,16 @@
+#carrusel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #imagen {
+    width: 400px;
+    height: 400px;
+  }
+  
+  #previo,
+  #siguiente {
+   margin: auto 30px;
+   margin-top: 30px;
+  }
