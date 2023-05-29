@@ -1,0 +1,65 @@
+
+.formularioCont {
+    order: 3;
+    border-radius: 30px;
+    padding: 20px;
+    width: 400px;
+    height: 500px;
+    background-color: #66ad86;
+  }
+
+
+.titleForm {
+    text-align: center;
+    border-radius: 25px;
+    margin: 10px;
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(14, 119, 49);
+  }
+  
+  
+  /* Estilos para las etiquetas de los campos del formulario */
+  label {
+    display: block;
+    margin-bottom: 7px;
+    font-size: 17px;
+    font-family: fantasy;
+  }
+  
+  /* Estilos para los campos de texto y de correo del formulario */
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    display: block;
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    border: 1px solid #898a46;
+  }
+  
+  /* Estilos para el botón de envío del formulario */
+  .submit {
+    background-color: #2608a1;
+    font-family: Arial;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    font-family:Verdana sans-serif;
+    
+  }
+  
