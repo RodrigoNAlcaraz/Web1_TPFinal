@@ -13,7 +13,7 @@
 <body>
 
     <div class="formularioCont">
-        <form id="myForm">
+        <form  id="myForm">
             <h2 class="titleForm">Contacto</h2>
 
             <label for="nombre">Nombre completo: <span id="nombreError" class="error"></span></label>
@@ -26,18 +26,19 @@
 
 
             <label for="email">Correo electrónico:  <span id="emailError" class="error"></span></label>
-            <input type="email" id="email" name="email" placeholder="xxxxxx@gmail.com">
+            <input type="text" id="email" name="email" placeholder="xxxxxx@gmail.com">
             
 
             <label for="celular">Número celular: <span id="celularError" class="error"></span></label>
-            <input type="tel" id="celular" name="celular" placeholder="266*******">
+            <input type="number" id="celular" name="celular" placeholder="266*******">
             
 
 
             <label for="pregunta">Pregunta y/o consulta:</label>
             <textarea id="pregunta" name="pregunta"></textarea>
 
-            <input type="submit" class="submit" value="Enviar">
+            <button type="submit">Enviar</button>
+          
         </form>
     </div>
 

@@ -4,7 +4,7 @@
     border-radius: 30px;
     padding: 20px;
     width: 400px;
-    height: 500px;
+    
     background-color: #66ad86;
   }
 
@@ -30,7 +30,7 @@
   /* Estilos para los campos de texto y de correo del formulario */
   input[type="text"],
   input[type="email"],
-  input[type="tel"],
+  input[type="number"],
   textarea {
     display: block;
     width: 350px;
@@ -41,7 +41,7 @@
   }
   
   /* Estilos para el botón de envío del formulario */
-  .submit {
+  button {
     background-color: #2608a1;
     font-family: Arial;
     font-size: 20px;
@@ -62,4 +62,6 @@
     font-family:Verdana sans-serif;
     
   }
+
+
   
