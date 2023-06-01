@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-
+    <title>Formulario</title>
 </head>
-
 <body>
+    
+    <h1>FORMULARIO</h1>
 
-    <div class="formularioCont">
+    <div class="formularioCont" style="margin-top: 40px; margin-left: 30%; margin-bottom: 40px;">
         <form  onsubmit="return validar()" id="myForm">
             <h2 class="titleForm">Contacto</h2>
 
@@ -37,7 +36,7 @@
             <label for="pregunta">Pregunta y/o consulta:</label>
             <textarea id="pregunta" name="pregunta"></textarea>
 
-            <button type="submit">Enviar</button>
+            <button type="submit" id="botonEnviar">Enviar</button>
           
         </form>
         <div id="mensajes">
@@ -46,5 +45,15 @@
 
     <script src="scriptForm.js"></script>
 </body>
-
+<footer class="paginasCons">
+    <div class="conjuntoFooter2">
+      <div class="logo">
+        <a class="aLogo" href="./index.html"><img src="./asset/imagenes/logo quimica-modified_low.png" alt="logo">
+       </a> </div>
+      <div class="footer-text">
+        <p><a href="./index.html#footerPpal">¡Conocenos un poco mas!</a></p>
+  
+      </div>
+    </div>
+  </footer>
 </html>

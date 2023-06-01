@@ -11,6 +11,9 @@
   
   #previo,
   #siguiente {
+    display: flex;
    margin: auto 30px;
    margin-top: 30px;
   }
+
+

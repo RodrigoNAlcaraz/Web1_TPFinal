@@ -4,7 +4,6 @@
     border-radius: 30px;
     padding: 20px;
     width: 400px;
-    
     background-color: #66ad86;
   }
 
@@ -40,7 +39,7 @@
     border: 1px solid #898a46;
   }
   
-  /* Estilos para el botón de envío del formulario */
+  /* Estilos para el boton de envío del formulario */
   button {
     background-color: #2608a1;
     font-family: Arial;

@@ -33,6 +33,8 @@
                         Desinfectantes</a></li>
                 <li><a href="./descartables.html" target="_self">
                         Descartables</a></li>
+                <li><a href="./form.html" target="_self">
+                        Formulario</a></li>
             </ul>
         </div>
     </nav>
@@ -109,26 +111,35 @@
 
 
             <div class="formularioCont">
-                <form>
+                <form onsubmit="return validar()" id="myForm">
                     <h2 class="titleForm">Contacto</h2>
-                    <label for="nombre">Nombre completo:</label>
+
+                    <label for="nombre">Nombre completo: <span id="nombreError" class="error"></span></label>
                     <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre completo">
 
-                    <label for="apellido">Apellido:</label>
+
+                    <label for="apellido">Apellido: <span id="apellidoError" class="error"></span></label>
+
                     <input type="text" id="apellido" name="apellido" placeholder="Ingresa tu Apellido">
 
-                    <label for="email">Correo electrónico:</label>
-                    <input type="email" id="email" name="email" placeholder="xxxxxx@gmail.com">
 
-                    <label for="celular">Número celular:</label>
+                    <label for="email">Correo electrónico: <span id="emailError" class="error"></span></label>
+                    <input type="text" id="email" name="email" placeholder="xxxxxx@gmail.com">
+
+
+                    <label for="celular">Número celular: <span id="celularError" class="error"></span></label>
                     <input type="number" id="celular" name="celular" placeholder="266*******">
-                    
-                    <label for="pregunta">Pregunta y/o consulta:</label>
-                    <textarea id="pregunta" name="pregunta">
-                    </textarea>
 
-                    <input type="submit" class="submit" value="Enviar">
+
+
+                    <label for="pregunta">Pregunta y/o consulta:</label>
+                    <textarea id="pregunta" name="pregunta"></textarea>
+
+                    <button type="submit" id="botonEnviar">Enviar</button>
+
                 </form>
+                <div id="mensajes">
+                </div>
             </div>
             <div class="quienesSomos">
                 <h3 class="tittlequienesSomos">¿Quienes somos?</h3>
@@ -158,8 +169,8 @@
 
     </footer>
 
-
-    <script src="script.js"></script>
+    <script src="scriptForm.js"></script>
+    <script src="scriptCarrusel.js"></script>
 
 </body>
 
