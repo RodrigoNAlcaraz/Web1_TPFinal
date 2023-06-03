@@ -70,6 +70,10 @@ function validar() {
     return false;
   } else {
     let p = document.createElement("p");
+    let p2 = document.createElement("p");
+    p2.innerHTML = "Formulario enviado por: ";
+    p2.style.textAlign = "center";
+    mensajes.appendChild(p2);
     p.innerHTML = "Nombre completo: " + apellido + " " + nombre + ", Celular: " + celular + ", correo: " + email;
     mensajes.appendChild(p);
     form.reset();
